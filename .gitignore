@@ -1,0 +1,19 @@
+# Large data and model files
+glove.6B.200d.txt
+glove.6B.zip
+*.pth
+movie.csv
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+venv/
+.venv/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Claude internal
+.claude/
