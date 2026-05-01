@@ -1,0 +1,6 @@
+tensorflow
+pandas
+beautifulsoup4
+scikit-learn
+ipykernel
+jupyter
