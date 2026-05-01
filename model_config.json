@@ -1,0 +1,17 @@
+{
+  "max_len": 300,
+  "vocab_size": 10000,
+  "embedding_dim": 200,
+  "lstm_units": 64,
+  "dropout1": 0.3,
+  "dropout2": 0.2,
+  "lr": 0.001,
+  "stacked": false,
+  "best_val_accuracy": 0.9034910798072815,
+  "best_val_accuracy_epoch": 9,
+  "best_val_loss": 0.2600564956665039,
+  "best_val_loss_epoch": 4,
+  "test_accuracy": 0.8994798064231873,
+  "test_loss": 0.2842422127723694,
+  "test_auc": 0.9626613855361938
+}
