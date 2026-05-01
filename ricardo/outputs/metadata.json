@@ -1,0 +1,35 @@
+{
+  "config": {
+    "data_dir": "data/raw",
+    "output_dir": "outputs",
+    "seed": 42,
+    "sample_size": null,
+    "max_vocab": 30000,
+    "min_freq": 2,
+    "max_len": 250,
+    "batch_size": 256,
+    "epochs": 12,
+    "lr": 0.002,
+    "weight_decay": 0.0001,
+    "embed_dim": 256,
+    "hidden_dim": 256,
+    "dropout": 0.35,
+    "patience": 2,
+    "num_workers": 0,
+    "amp": true,
+    "advanced_preprocessing": true,
+    "run_gridsearch": true,
+    "cv_folds": 3,
+    "grid_jobs": 1,
+    "max_tfidf_features": 60000,
+    "max_grid_train_size": 30000
+  },
+  "dataset_size": 40000,
+  "splits": {
+    "train": 28000,
+    "val": 6000,
+    "test": 6000
+  },
+  "vocab_size": 30000,
+  "device": "cuda"
+}
