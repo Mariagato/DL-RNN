@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.egg-info/
+.ipynb_checkpoints/
+
+# Entornos virtuales
+rnn_env/
+rnn_env_metal/
+venv/
+.venv/
+env/
+
+# macOS
+.DS_Store
+
+# Cachés / artefactos
+*.npy
+*.h5
+*.keras
+gensim-data/
+.pytest_cache/
+
+# IDEs
+.vscode/
+.idea/
